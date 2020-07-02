@@ -1,0 +1,98 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/* asterix is a universal selector- applies rules to all html. You could use it for fonts, note- add <link href="link" to <head> element as download source for browser */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14pt;
+}
+
+head {
+}
+
+header {
+}
+
+body {
+    background-color: #fce8ff;
+}
+
+.main-head {
+    padding: 1px;
+    border: 1px;
+    margin: 30px 350px 0px 350px;
+    display: flex;
+}
+
+.main-head-text {
+    color: #494b4d;
+    font-size: 1rem;
+}
+
+.sub-head {
+    padding: 0px;
+    border: 0px;
+    margin: 00px 350px 0px 380px;
+    display: flex;
+}   
+
+.sub-head-text {
+    color: #7e8581; 
+    font-size: 0.5rem;
+    font-style: italic;
+}
+
+.profile-links {
+}
+
+#profile-img {
+    border: 5px;
+    border-radius: 150px;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    left: 30px;
+    top: 29px;
+    box-shadow: 7px 7px 2px gray;
+}
+
+#github-img {
+    border-radius: 150px;
+    position: absolute;
+    left: 55px;
+    top: 185px;
+    box-shadow: 7px 7px 2px gray;
+}
+
+#linkedin-img {
+    border-radius: 150px;
+    position: absolute;
+    left: 55px;
+    top: 285px;
+    box-shadow: 5px 5px 2px gray;
+}
+.flex-container-body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    display: flex;
+    flex-flow: wrap row;
+    height: 200px;
+    margin: 150px 180px 100px 180px;
+
+}
+.about-img {   
+}
+.blog-img { 
+}
+.resources-img {   
+}
+
+.paragraph {
+    border-style: double;
+    padding: 1rem;
+    margin: 0rem 10rem 0rem 10rem; 
+    font-size: small;  
+}
