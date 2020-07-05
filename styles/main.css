@@ -110,6 +110,7 @@
     margin: 2%;
     border: 2%;
     padding: 0% 15% 0% 20%;
+    overflow: auto;
 }
 .body-images {
     display: block;
@@ -119,6 +120,6 @@
     padding: 0% 15% 0% 20%;
 }
 /*CORE ONE BLOG*/
-#core-im {
-    
+#core-img {
+
 }
