@@ -6,6 +6,9 @@
     width: 80%;
     content: center;  
 }
+.heading-block {
+    text-align: center;
+}
 #title-img {
     margin-bottom: 2%;
     padding-left: 4%;
@@ -75,11 +78,6 @@
     padding: 10px 20px 10px 10px;
 }
 
-/*SPRINT TWO TECH */
-
-.heading-block {
-    text-align: center;
-}
 .nav-bar {
 
 }
@@ -93,23 +91,12 @@
     top: 30px;
     box-shadow: 7px 7px 2px gray;
 }
-.tech1-question {
-    display: block;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 10pt;
-    margin: 2%;
-    border: 2%;
-    padding: 0% 15% 0% 20%;
-}
 .body-of-text {
     display: block;
-    text-align: center;
+    position: center;
     font-size: 11pt;
-    margin: 2%;
     border: 2%;
-    padding: 0% 15% 0% 20%;
+    padding: 0% 0% 0% 30%;
     overflow: auto;
 }
 .body-images {
@@ -117,9 +104,35 @@
     text-align: center;
     margin: auto;
     border: auto;
-    padding: 0% 15% 0% 20%;
 }
 /*CORE ONE BLOG*/
-#core-img {
 
+#core-img {
+}
+
+#core1-question {
+    font-weight: bold;
+    font-size: 10pt;
+    margin-left: 25%;
+}
+
+#core2-question {
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0% 0% 0% 36%;
+}
+#tech2-question {
+    font-weight: bold;
+    font-size: 9pt;
+    margin-left: 2%;
+}
+#core3-question {
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0% 0% 0% 10%;
+}
+#tech3-question {
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0% 0% 0% 18%;
 }
