@@ -3,7 +3,7 @@
     background-color:#c2e9ff;
 }
 .block-centre {
-    width: 80%;
+    width: 90%;
     content: center;  
 }
 .heading-block {
@@ -97,10 +97,9 @@
 .body-of-text {
     display: block;
     position: center;
-    font-size: 11pt;
+    font-size: 10pt;
     border: 2%;
     padding: 0% 0% 0% 30%;
-    overflow: auto;
 }
 .body-images {
     display: block;
