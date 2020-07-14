@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
-    <title>S.J. Wilder | Tech Two Blog</title>
-  </head>
-  <header>
-    <div class="heading-block">
-        <img id="title-img" src="./images/title-img.png" alt="Stevie Jack Wilder heading">
-    </div>
-    <div class="heading-block">
-        <img id="core-img" src="./images/tech2.png" alt="Tech Two">
-    </div>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
+  <title>S.J. Wilder | Tech Two Blog</title>
+</head>
+<header>
+  <div class="heading-block">
+    <img id="title-img" src="./images/title-img.png" alt="Stevie Jack Wilder heading">
+  </div>
+  <div class="heading-block">
+    <img id="core-img" src="./images/tech2.png" alt="Tech Two">
+  </div>
 </header>
 <nav>
   <div class="nav-bar">
     <a href="https://stevie-jack-wilder.github.io/index.html">
-    <img id="home-pic" src="./images/home-pic.png" alt="Homepage">
-    </a> 
+      <img id="home-pic" src="./images/home-pic.png" alt="Homepage">
+    </a>
   </div>
 </nav>
+
 <body>
-    <div class="block-centre">
-      <div class="body-of-text">
-        <div id="tech2-question">
-          <br>
-          <br>
-          <h2>What is the difference between Margin, Border, and Padding?</h2>
-        </div>
+  <div class="block-centre">
+    <div class="body-of-text">
+      <div id="tech2-question">
         <br>
         <br>
-        <img class="body-images" src="./images/boxmodel-img.png" alt="Box diagram containing four boxes in total, from outside to in - orange box labelled margin, yellow box labelled border, green box labelled padding, blue box with dimensions 937 x 238 displayed in text."> 
-        </img>
-        <br>
-        <p>Let's start off with one of my essentials: A visual! What you're looking at is called The Box Model, and it is a great CSS tool to design the layout of webpages. In essense, it allows you to control empty space on a website by making changes to any or all of three things: The margin, the border, and the padding.   
-        </p> 
-        <br>
-        <p>These three components sit all snug around your content. Content is an umbrella word you can use to refer to any visual and interactive elements on you page. This could be text, images, videos and more!
-        </p>
-        <br>
-        <p>Margin is our outer-most part of the box model. It is a transparent feature that dictates the amount of space between different content on your page. You can think of Margins as magnets with only a positive charge (positve repels). The bigger the margin number, the stronger your magnetic field becomes, pushing away other content surrounding it.
-        </p>
-        <br>
-        <p>Border is our most snug and sandwiched part of the box model. Unlike Margin and Padding, you can choose whether it is a transparent, colored, or designed feature. Ooh-la-la! Have a look up at the top left of this page, for example. Do you see the the border around the "Home" image in the circle? That is a border I added in css. 
-        </p>
-        <br>
-      <img class="body-images" src="./images/border-example.png" alt="Screenshot css code showing border values."></img>
-        <br>
-        <p>We can see that I created a border of 5px. Because I have only written the value once, it applies it to all sides of the image. "Wait! But there aren't four sides, Stevie!" I hear you proclaim. I know, I know. But there's this nifty little feature I added on the line below: Border-radius. Border-radius with a high pixel value has rounded out the border, and my square image now sits inside. Gorgeous.
-        </p>
-        <br>
-        <p>Padding is last step inside the box model, and is a transparent feature like the margin. This time, however, instead of reacting in relation to other independent elements on your page, it does so in relation to the content and the border. Text looking a little tight around the edges? No worries! Chuck in some padding. 
-        </p>
-        <p>All three of these features can be altered by changing individual values of each side in your css file, or you can group together sides in one line of code if you have matching values. For example:
-        </p>
-        <br>
-      <img class="body-images" src="./images/boxmod-multi.png" alt="Screenshot css code showing four different border values."></img>
+        <h2>What is the difference between Margin, Border, and Padding?</h2>
+      </div>
       <br>
-      <p>As you can see, padding has four different values, and the order in which they are written dictates which side is affected. For this, we can think of a clock. First, second, third, fourth = top, right, bottom, left. 
+      <br>
+      <img class="body-images" src="./images/boxmodel-img.png"
+        alt="Box diagram containing four boxes in total, from outside to in - orange box labelled margin, yellow box labelled border, green box labelled padding, blue box with dimensions 937 x 238 displayed in text.">
+      </img>
+      <br>
+      <p>
+        Let's start off with one of my essentials: A visual! What you're looking at is called The Box Model, and it is a
+        great CSS tool to design the layout of webpages. In essense, it allows you to control empty space on a website
+        by making changes to any or all of three things: The margin, the border, and the padding.
       </p>
       <br>
-      <p>Want to have a further look at the box model? Easy done, right click on this page, or any webpage for that matter, and select "Inspect." You will notice in this new bizarre window that has popped up that there is a heading called 'Styles' selected, and if you scroll down a bit you will see the box model working in action. Roll your mouse over different elements of a page and keep an eye on how the box model changes values. Cool, huh?
+      <p>
+        These three components sit all snug around your content. Content is an umbrella word you can use to refer to any
+        visual and interactive elements on you page. This could be text, images, videos and more!
+      </p>
+      <br>
+      <p>
+        Margin is our outer-most part of the box model. It is a transparent feature that dictates the amount of space
+        between different content on your page. You can think of Margins as magnets with only a positive charge (positve
+        repels). The bigger the margin number, the stronger your magnetic field becomes, pushing away other content
+        surrounding it.
+      </p>
+      <br>
+      <p>
+        Border is our most snug and sandwiched part of the box model. Unlike Margin and Padding, you can choose whether
+        it is a transparent, colored, or designed feature. Ooh-la-la! Have a look up at the top left of this page, for
+        example. Do you see the the border around the "Home" image in the circle? That is a border I added in css.
+      </p>
+      <br>
+      <img class="body-images" src="./images/border-example.png" alt="Screenshot css code   showing border values.">
+      </img>
+      <br>
+      <p>
+        We can see that I created a border of 5px. Because I have only written the value once, it applies it to all
+        sides of the image. "Wait! But there aren't four sides, Stevie!" I hear you proclaim. I know, I know. But
+        there's this nifty little feature I added on the line below: Border-radius. Border-radius with a high pixel
+        value has rounded out the border, and my square image now sits inside. Gorgeous.
+      </p>
+      <br>
+      <p>
+        Padding is last step inside the box model, and is a transparent feature like the margin. This time, however,
+        instead of reacting in relation to other independent elements on your page, it does so in relation to the
+        content and the border. Text looking a little tight around the edges? No worries! Chuck in some padding.
+      </p>
+      <p>
+        All three of these features can be altered by changing individual values of each side in your css file, or you
+        can group together sides in one line of code if you have matching values. For example:
+      </p>
+      <br>
+      <img class="body-images" src="./images/boxmod-multi.png"
+        alt="Screenshot css code showing four different border values.">
+      </img>
+      <br>
+      <p>
+        As you can see, padding has four different values, and the order in which they are written dictates which side
+        is affected. For this, we can think of a clock. First, second, third, fourth = top, right, bottom, left.
+      </p>
+      <br>
+      <p>
+        Want to have a further look at the box model? Easy done, right click on this page, or any webpage for that
+        matter, and select "Inspect." You will notice in this new bizarre window that has popped up that there is a
+        heading called 'Styles' selected, and if you scroll down a bit you will see the box model working in action.
+        Roll your mouse over different elements of a page and keep an eye on how the box model changes values. Cool,
+        huh?
       </p>
       <br>
       <br>
       <br>
       <br>
-  </div>
     </div>
+  </div>
 </body>

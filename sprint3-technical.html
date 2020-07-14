@@ -1,79 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
-    <title>S.J. Wilder | Tech Three Blog</title>
-  </head>
-  <header>
-    <div class="heading-block">
-        <img id="title-img" src="./images/title-img.png" alt="Stevie Jack Wilder heading">
-    </div>
-    <div class="heading-block">
-        <img id="core-img" src="./images/tech3.png" alt="Tech Three">
-    </div>
-  </header>
-  <nav>
+<head>
+  <meta charset="UTF-8">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
+  <title>S.J. Wilder | Tech Three Blog</title>
+</head>
+<header>
+  <div class="heading-block">
+    <img id="title-img" src="./images/title-img.png" alt="Stevie Jack Wilder heading">
+  </div>
+  <div class="heading-block">
+    <img id="core-img" src="./images/tech3.png" alt="Tech Three">
+  </div>
+</header>
+<nav>
   <div class="nav-bar">
     <a href="https://stevie-jack-wilder.github.io/index.html">
-    <img id="home-pic" src="./images/home-pic.png" alt="Homepage">
-    </a> 
+      <img id="home-pic" src="./images/home-pic.png" alt="Homepage">
+    </a>
   </div>
-  </nav>
-  <body>
-    <div class="block-centre">
-        <div class="body-of-text">
-          <div id="tech3-question">
-            <br>
-            <h2>The DOM in relation to HTML and CSS</h2>
-          </div>
-          <br>
-          <h3>An analogy to describe the differences between HTML and CSS:</h3>
-          <p>HTML is the architect that designs the home, whereas, CSS is the landscaper and designer that beautify the property.</p>
-          <br>
-          <h3> Explain control flow and loops using an example process from everyday life. </h3>
-          <p>Control flow allows us to dictate the order in which statements, instructions or functions execute their assign actions. Let's think about control flow in terms of our day-to-day life. I'm making dinner, it's going to be a simple stir-fry. We have a few steps to complete.
-          <ul>
-            <li>Dice vegetables and chicken.</li>
-            <li>Make sauce, prep noodles.</li>
-            <li>Add oil to pan.</li>
-            <li>Cook chicken.</li>
-            <li>Add veg, noodles, sauce to pan.</li>
-            <li>Stir pan, open beer, finish beer, serve.</li>
-          </ul>
-          <p>Control flow is the part of my brain that knows I need to dice my vegetables and chicken before they go in a pan, and before anything goes in a pan, there needs to be oil in there. Oh, and we probably want the oil heated, too! Without control flow, I might just stir an empty cold pot, open a beer, finish the beer, and serve myself a lovely plate of nothing, then go and dice some veg.All of the correct instructions are in there, but without creating a control loop, it won't be executed in the desired order.</p>
-          <p>Loops work in a similar way, instead, we are thinking about repetitive tasks that need to be executed a number of times before we consider a job (or 'function') to be done. We can dictate how many loops of an action is executed before it finishes. For example, when cutting vegetables for my stirfry, I need to move my knife in a certain action X times to get Y pieces of delicious brocollini preppped for the pan. But I also need to know when I have enough and when to stop. </p>
-          <br>
-          <h3>Describe what the DOM is and an example of how you might interact with it.</h3>
-          <p>The DOM is the glue, as Kirupa describes, that holds together the html, css, and javascript. It is an object representation of your entire project and acts as a gateway to the browser. It is a collection of nodes: elements, attributes, text content, comments, docs, and other things. The mapping is done via Node > Element > HTMLElement. every HTMLElement has a JS equivalent. Such as an anchor in html (a)is HTMLAnchorElement in JS.</p>
-          <br>
-          <h3>What is the difference between accessing data from arrays and objects?</h3>
-          <p>An Object stores a collection of data, and we call this data a set of 'properties'. Each property has a key and a value. For example:</p>
-          <ul>
-            var object = { <br>
-            key: 'value'<br>
-            };<br>
-          </ul>
-          <p> In your phone's Contacts List, we could think of each person as an object with nesting unique properties, such as name, number, address, alternate contact. We could also think of these properties as characteristics of the object. For example:</p>
-          <ul>
-            var person = {<br>
-            name: 'Stevie',<br>
-            age: 33,<br>
-            lovesCats: true<br>
-            };<br>
-          </ul>
-          <p>Arrays also store data but as a list of multiple items in a single variable. Arrays are useful for creating ordered collections where each item is assigned a numerical value. It is important to remember that we start with zero when working with most coding languages. So, the first word in this paragraph, "Array", would be assigned the number[0]. Arrays can contain strings, numbers, bools, objects, or even other arrays!</p>
-          <p>So, what's the answer? In short, we access data from Objects when we want to find a characteristic, or property, within that Object. We access data from Arrays when we want to find the numberical position of an item within a variable. This number[0] allows us to interact with this item by identifying it in functions.</p>
-          <br>
-          <h3>Explain what functions are and why they are useful.</h3>
-          <p>Functions are like commands, in that they execute a certain task when 'called' or 'invoked'. We can give our functions unique names to idenfity their job, and then specify what action is undertaken when called upon. In a function we can list parameters it will impact, we can also give it 'arguments' which are the resulting values when the function is called. Within the function, our parameters behave like variables. </p>
-          <p>Functions are incredibly useful and considered to be the building blocks of JavaScript. Functions are essentially a group of statements that perform a specified task or calculate a value. I am very early on in my learning of JavaScript, but of what I have seen so far, it seems the possibilities could be endless. </p>
-          <br>
-          <br>
-          <br>
+</nav>
 
-        </div>
+<body>
+  <div class="block-centre">
+    <div class="body-of-text">
+      <div id="tech3-question">
+        <br>
+        <h2>The DOM in relation to HTML and CSS</h2>
+      </div>
+      <br>
+      <h3>An analogy to describe the differences between HTML and CSS:</h3>
+      <p>
+        HTML is the architect that designs the home, whereas, CSS is the landscaper and designer that beautify the
+        property.
+      </p>
+      <br>
+      <h3> Explain control flow and loops using an example process from everyday life. </h3>
+      <p>
+        Control flow allows us to dictate the order in which statements, instructions or functions execute their assign
+        actions. Let's think about control flow in terms of our day-to-day life. I'm making dinner, it's going to be a
+        simple stir-fry. We have a few steps to complete.
+      <ul>
+        <li>Dice vegetables and chicken.</li>
+        <li>Make sauce, prep noodles.</li>
+        <li>Add oil to pan.</li>
+        <li>Cook chicken.</li>
+        <li>Add veg, noodles, sauce to pan.</li>
+        <li>Stir pan, open beer, finish beer, serve.</li>
+      </ul>
+      </p>
+      <p>
+        Control flow is the part of my brain that knows I need to dice my vegetables and chicken before they go in a
+        pan, and before anything goes in a pan, there needs to be oil in there. Oh, and we probably want the oil heated,
+        too! Without control flow, I might just stir an empty cold pot, open a beer, finish the beer, and serve myself a
+        lovely plate of nothing, then go and dice some veg.All of the correct instructions are in there, but without
+        creating a control loop, it won't be executed in the desired order.
+      </p>
+      <p>
+        Loops work in a similar way, instead, we are thinking about repetitive tasks that need to be executed a number
+        of times before we consider a job (or 'function') to be done. We can dictate how many loops of an action is
+        executed before it finishes. For example, when cutting vegetables for my stirfry, I need to move my knife in a
+        certain action X times to get Y pieces of delicious brocollini preppped for the pan. But I also need to know
+        when I have enough and when to stop.
+      </p>
+      <br>
+      <h3>Describe what the DOM is and an example of how you might interact with it.</h3>
+      <p>
+        The DOM is the glue, as Kirupa describes, that holds together the html, css, and javascript. It is an object
+        representation of your entire project and acts as a gateway to the browser. It is a collection of nodes:
+        elements, attributes, text content, comments, docs, and other things. The mapping is done via Node > Element >
+        HTMLElement. every HTMLElement has a JS equivalent. Such as an anchor in html (a)is HTMLAnchorElement in JS.
+      </p>
+      <br>
+      <h3>What is the difference between accessing data from arrays and objects?</h3>
+      <p>
+        An Object stores a collection of data, and we call this data a set of 'properties'. Each property has a key and
+        a value. For example:
+      </p>
+      <ul>
+        var object = { <br>
+        key: 'value'<br>
+        };<br>
+      </ul>
+      <p>
+        In your phone's Contacts List, we could think of each person as an object with nesting unique properties, such
+        as name, number, address, alternate contact. We could also think of these properties as characteristics of the
+        object. For example:
+      </p>
+      <ul>
+        var person = {<br>
+        name: 'Stevie',<br>
+        age: 33,<br>
+        lovesCats: true<br>
+        };<br>
+      </ul>
+      <p>
+        Arrays also store data but as a list of multiple items in a single variable. Arrays are useful for creating
+        ordered collections where each item is assigned a numerical value. It is important to remember that we start
+        with zero when working with most coding languages. So, the first word in this paragraph, "Array", would be
+        assigned the number[0]. Arrays can contain strings, numbers, bools, objects, or even other arrays!
+      </p>
+      <p>
+        So, what's the answer? In short, we access data from Objects when we want to find a characteristic, or property,
+        within that Object. We access data from Arrays when we want to find the numberical position of an item within a
+        variable. This number[0] allows us to interact with this item by identifying it in functions.
+      </p>
+      <br>
+      <h3>Explain what functions are and why they are useful.</h3>
+      <p>
+        Functions are like commands, in that they execute a certain task when 'called' or 'invoked'. We can give our
+        functions unique names to idenfity their job, and then specify what action is undertaken when called upon. In a
+        function we can list parameters it will impact, we can also give it 'arguments' which are the resulting values
+        when the function is called. Within the function, our parameters behave like variables.
+      </p>
+      <p>
+        Functions are incredibly useful and considered to be the building blocks of JavaScript. Functions are
+        essentially a group of statements that perform a specified task or calculate a value. I am very early on in my
+        learning of JavaScript, but of what I have seen so far, it seems the possibilities could be endless.
+      </p>
+      <br>
+      <br>
+      <br>
     </div>
-  </body>
+  </div>
+</body>
 </html>
