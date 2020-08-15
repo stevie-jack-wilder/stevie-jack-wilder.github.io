@@ -1,0 +1,21 @@
+#world {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: rgb(86, 5, 192);
+}
+
+td {
+    border: 1px solid darkgray;
+    width: 10px;
+    height: 10px;
+}
+
+td.dead {
+    background-color: rgb(125, 190, 252);
+}
+
+td.alive {
+    background-color: rgb(207, 19, 207);
+}
